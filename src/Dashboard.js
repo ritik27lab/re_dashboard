@@ -28,8 +28,9 @@ const Dashboard = () => {
           title:"drum",
           image:img4,
         }
-
       ];
+      
+
       
   return (
     <div>

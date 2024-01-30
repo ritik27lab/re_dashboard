@@ -44,7 +44,12 @@ export default function NewProductModal({ isOpenProduct, setIsOpenProduct }) {
           <button>The modal</button>
         </form> */}
 
+
+
+
+
 <form>
+
   <div class="form-row">
     <label for="description">Description</label>
     <input

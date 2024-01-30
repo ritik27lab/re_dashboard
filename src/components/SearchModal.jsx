@@ -32,7 +32,7 @@ export default function SearchModal({ isOpen, setIsOpen }) {
         style={customStyles}
         contentLabel="Example Modal"
       >
-        <div style={{backgroundColor:'green'}}></div>
+        <div></div>
         <button onClick={closeModal}>Close</button>
         <div>I am a modal</div>
         <form>
