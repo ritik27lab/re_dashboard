@@ -1,0 +1,38 @@
+.form-row {
+    margin-bottom: 15px;
+  }
+  
+  .input-with-currency {
+    display: flex;
+    align-items: center;
+  }
+  
+  .currency-symbol {
+    margin-right: 5px;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Hide the default checkbox */
+  .checkbox-container input[type="checkbox"] {
+    display: none;
+  }
+  
+  /* Style the custom checkbox */
+  .checkbox-container label {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #333;
+    margin-right: 5px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .checkbox-container input[type="checkbox"]:checked + label {
+    background-color: #333;
+    border-color: #333;
+  }
+  
